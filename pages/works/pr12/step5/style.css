@@ -1,0 +1,175 @@
+/* Базовые стили для всех экранов */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+.form-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+}
+h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+input,
+textarea,
+button {
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #218838;
+}
+.form-container {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 20px 15px;
+    align-items: center;
+}
+h2 {
+    grid-column: span 2;
+}
+.form-row {
+    display: contents;
+}
+.form-row label {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    padding-top: 12px;
+}
+.form-row input {
+    width: 100%;
+    padding: 12px;
+}
+
+.full-width {
+    display: contents;
+}
+
+.full-width label {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    padding-top: 12px;
+    align-self: start;
+}
+.full-width textarea {
+    width: 100%;
+    padding: 12px;
+    resize: vertical;
+    min-height: 150px;
+}
+button {
+    grid-column: 2;
+    width: 200px;
+    margin: 10px auto 0 auto;
+    padding: 12px 24px;
+}
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    .form-container {
+        padding: 20px;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .form-row label {
+        text-align: left;
+        padding-top: 0;
+        font-size: 16px;
+    }
+    .form-row input {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+    .full-width {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+    }
+    .full-width label {
+        text-align: left;
+        padding-top: 0;
+        font-size: 16px;
+    }
+    .full-width textarea {
+        width: 100%;
+        padding: 12px;
+        min-height: 120px;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
+        padding: 14px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        padding: 15px;
+        gap: 12px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    .form-row label,
+    .full-width label {
+        font-size: 14px;
+    }
+
+    .form-row input,
+    .full-width textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .full-width textarea {
+        min-height: 100px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
