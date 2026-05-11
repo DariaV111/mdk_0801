@@ -1,0 +1,162 @@
+.new {
+    background: url("../img/ruuu.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+}
+.new1 {
+    background: url("../img/dgg.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    background-color: #f5f0f2;
+}
+main{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgba(200, 170, 180, 0.3);
+    width: 100%;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8b4b8;
+    text-align:center;
+    font-size:larger;
+    color: #5a4a4f;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4b8c0;
+    text-align:left;
+    padding: 50%;
+    color: #5a4a4f;
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background: #c9a0aa;
+}
+li{
+    padding: 10px;
+}
+li a {
+    color: #5a3d44;
+    text-decoration: none;
+}
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #8b5e6b;
+}
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #8b5e6b;
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8b5e6b;
+}
+* {
+    font-size: 16px;
+}
+.content {
+    display: flex; 
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 30px; 
+}
+section {
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+    align-items: flex-start;
+}
+
+section > article {
+    width: 100%; 
+    background-color: #f5e6ea;
+    padding: 15px;
+    border-radius: 8px;
+    color: #5a4a4f;
+}
+
+aside {
+    width: 30%;
+    background-color: #d9c2c8;
+    padding: 20px;
+    border-radius: 8px;
+    position: sticky;
+    top: 20px;
+    color: #5a4a4f;
+}
+aside article {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f2e0e4;
+    border-radius: 5px;
+}
+.weather-info {
+    text-align: center;
+    color: #6b525a;
+}
+.content2 {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 30px;
+}
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.skill-card {
+    flex: 1;
+    text-align: center;
+    background-color: #f2e0e4;
+    padding: 15px;
+    border-radius: 10px;
+    color: #5a4a4f;
+}
+.skill-card img {
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+}
+.courses-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.course-card img {
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+    width: 60px;
+}
+.course-card {
+    flex: 1;
+    text-align: center;
+    background-color: #f2e0e4;
+    padding: 15px;
+    border-radius: 10px;
+    color: #5a4a4f;
+}
+header h1{
+    color:#6f4c57;
+}
+
+

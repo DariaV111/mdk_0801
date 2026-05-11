@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    font-size: 0;
+}
+li {
+    display:inline-block;
+    background-color: orange; 
+    margin: 0;
+}
+a {
+    padding: 10px 15px;
+    display: inline-block;
+    color: white;
+}
+li:hover {
+    background-color: red; 
+}
+* {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}

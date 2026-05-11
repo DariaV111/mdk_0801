@@ -1,0 +1,29 @@
+header ul, footer ul {
+    list-style: none;
+}
+footer li {
+    display: inline-block;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+header li {
+    display: inline-block;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+a {
+    color: white;
+}
+header {
+    background: black;
+}
+footer {
+    background: black;
+}
+li {
+    padding: 10px;
+    color: black;
+}
+

@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+}
+li {
+    display: block;
+    margin: 5px 0;
+    border: 2px solid gray;
+    width: 20%;
+    background-color: gray;
+}
+a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+li:hover {
+    background-color: white;
+    border: 2px solid gray;
+}
+li:hover a {
+    color: gray;
+}

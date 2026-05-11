@@ -1,0 +1,52 @@
+body {
+    font-family: system-ui, 'Segoe UI', sans-serif;
+}
+.bg-coffee {
+    background-color: #2C1A0E;
+}
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('img/1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 85vh;
+}
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+}
+.icon {
+    font-size: 2.5rem;
+    color: #A5673F;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.btn-brown {
+    background-color: #6F4E37;
+    border-color: #6F4E37;
+    color: white;
+}
+.btn-brown:hover {
+    background-color: #5A3E2B;
+    color: white;
+}
+.btn-outline-brown {
+    border-color: #6F4E37;
+    color: #6F4E37;
+}
+.btn-outline-brown:hover {
+    background-color: #6F4E37;
+    color: white;
+}

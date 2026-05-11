@@ -1,0 +1,18 @@
+ul {
+    list-style: none;
+    color: blue;
+}
+li {
+    display:block;
+    margin: 5px 0;
+    border: 2px solid blue;
+    width: 20%;
+}
+a {
+    color: blue;
+    padding: 10px 15px;
+    display: inline-block;
+}
+li:hover a{
+    font-weight: bold;
+}

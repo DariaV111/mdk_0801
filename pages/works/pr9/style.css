@@ -1,0 +1,123 @@
+.line li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background: #FFC0CB;
+}
+.links a {
+    width: 200px;
+    display: block;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    margin: 15px;
+    text-decoration: none; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.blocks div {
+    display: inline;
+    margin: 20px 20px; 
+    padding: 15px;
+    background: #f90a0a;
+}
+.blocks {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.blocks .non {
+    display: none; 
+}
+.links-markers {
+    margin-top: 20px;
+    list-style-type: disc;
+    width: 200px;
+}
+.links-markers a {
+    display: list-item;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #000000;
+}
+.post1 .image {
+    width: 100px;
+    height: 100px;
+    background-image: url('img/weather-blizzard.jpg');
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 2px dashed #ff0000;
+}
+.post2 .image {
+    width: 100px;
+    height: 100px;
+    background-image: url('img/weather-blizzard.jpg');
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 2px dashed #ff0000;
+}
+.post1, .post2 {
+    background-color: #930303;
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+.container {
+    width: 40%;
+    margin: 10px 0;
+}
+.weather-item:first-child {
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 1px;
+    box-sizing: border-box;
+    margin-right: 1%; 
+}
+.weather-item:nth-child(2) {
+    float: right;
+    width: 33%;
+    text-align: center;
+    padding: 1px;
+    box-sizing: border-box;
+    margin-left: 1%; 
+}
+.weather-item:last-child {
+    float: none;
+    width: 33%;
+    text-align: center;
+    padding: 1px;
+    box-sizing: border-box;
+    margin: 0 auto; 
+}
+.date {
+    background-color: #1549ba;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.weather-item img {
+    width: 100%; 
+    height: auto; 
+    max-width: 100px; 
+    max-height: 100px; 
+    margin-bottom: 5px;
+}
+.temp {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+

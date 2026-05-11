@@ -1,0 +1,41 @@
+ul {
+    list-style: none;
+    color: white;
+}
+li {
+    display:block;
+    margin: 5px 0;
+    width: 15%;
+    background-color: rgb(66, 123, 236); 
+    position: relative;
+}
+a {
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+li:hover a{
+    color: rgb(0, 4, 246);
+}
+li:hover {
+    background-color: white; 
+    border: 2px solid rgb(66, 123, 236); 
+}
+* {
+    font-size: 18px;
+}
+li::after {
+    content: ''; 
+    opacity: 0; 
+    position: absolute;
+    right: 10px;
+    font-size: 28px; 
+    color: rgb(66, 123, 236);
+}
+li::after {
+  content: "✈"; 
+}
+li:hover::after {
+    opacity: 1; 
+}

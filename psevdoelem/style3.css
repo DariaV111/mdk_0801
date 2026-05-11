@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    color: blue;
+}
+li {
+    display:inline-block;
+    margin: 5px 0;
+    border: 2px solid blue;
+}
+a {
+    color: blue;
+    padding: 10px 15px;
+    display: inline-block;
+}
+li:hover a{
+    color: darkorange;
+}
+* {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}

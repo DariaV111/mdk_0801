@@ -1,0 +1,80 @@
+.td1 {
+    background: rgb(35, 143, 107);
+}
+.td2 {
+    background: rgb(67, 108, 196);
+}
+.td3 {
+    background: rgb(179, 190, 23);
+}
+.td4 {
+    background: rgb(221, 85, 148);
+}
+.td5 {
+    background: rgb(132, 64, 209);
+}
+.td6 {
+    background: rgb(19, 117, 96);
+}
+.td7 {
+    background: rgb(255, 122, 122);
+}
+.td8 {
+    background: rgb(170, 175, 96);
+}
+.td9 {
+    background: rgb(94, 247, 33);
+}
+.td10 {
+    background: rgb(84, 99, 185);
+}
+.td11 {
+    background: rgb(80, 85, 10);
+}
+.td12 {
+    background: rgb(109, 5, 57);
+}
+.td13 {
+    background: rgb(179, 190, 23);
+}
+.td14 {
+    background: rgb(94, 231, 89);
+}
+.td15 {
+    background: rgb(85, 49, 102);
+}
+.td16 {
+    background: rgb(64, 68, 9);
+}
+.td17 {
+    background: rgb(11, 224, 171);
+}
+.td18 {
+    background: rgb(68, 197, 236);
+}
+.td19 {
+    background: rgb(135, 47, 175);
+}
+.td20 {
+    background: rgb(255, 8, 41);
+}
+.td21 {
+    background: rgb(243, 255, 79);
+}
+.td22 {
+    background: rgb(255, 175, 4);
+}
+.td23 {
+    background: rgba(23, 190, 106, 0.493);
+}
+.td24 {
+    background: rgba(85, 165, 202, 0.356);
+}
+.td25 {
+    background: rgb(228, 38, 171);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+

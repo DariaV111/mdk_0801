@@ -1,0 +1,50 @@
+ul {
+    list-style: none; 
+    margin-top: 50px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 0 20px;
+    padding-top: 50px;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    font-size: 40px;
+    opacity: 0.2;
+}
+
+.avia::before { 
+    content: "\2708";
+    color: blue; 
+} 
+
+.charter::before {
+    content: "\2708"; 
+    color: darkblue; 
+} 
+
+.train::before {
+    content: "🚂"; 
+} 
+
+.hotel::before {
+    content: "🏨"; 
+} 
+
+.tour::before {
+    content: "🌍"; 
+} 
+
+li:hover::before {
+    opacity: 1; 
+    color: #007ACC; 
+}

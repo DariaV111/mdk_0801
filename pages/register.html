@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ведерникова Д.А.:регистрация</title>
+</head>
+<body>
+    <header>
+        <h2>Практическая работа № 4 </h2>
+        <h1>Мой сайт</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="new.html">Новости</a></li>
+                <li><a href="personal.html">Обо мне</a></li>
+                <li><a href="work.html">Мои работы</a></li>
+                <li><a href="login.html">Вход</a></li>
+                <li><a href="register.html">Регистрация</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3 align=center>анкета пользователя</h3>
+        <p> ответьте, пожалуйста на вопросы:</p>
+        <form method="post" action="http://www.ok.com/ok">
+            <p>Фамилия: <input name="surname" type="text" size="48" required></p>
+            <p>Имя: <input name="name" type="text" size="48" required></p>
+            <p>Отчество: <input name="patronymic" type="text" size="48"></p>
+            <p>Электронный адрес: <input name="email" type="email" size="42" required></p>
+            <p>Пароль: <input name="password" type="password" size="42" required></p>
+            <p>Подтверждение пароля: <input name="confirm_password" type="password" size="42" required></p>
+            <p>Дата рождения: <input name="birthdate" type="date"></p>
+            <p>Размер одежды:</p>
+            <p><input name="size" type="radio" value="s" required> S</p>
+            <p><input name="size" type="radio" value="m"> M</p>
+            <p><input name="size" type="radio" value="l"> L</p>
+            <p><input name="size" type="radio" value="xl"> XL</p>
+            <p><input name="consent" type="checkbox" value="yes" required>Согласие на обработку персональных данных </p>
+            <p>Для регистрации нажмите на кнопку "Зарегистрироваться".</p>
+            <p>Для сброса введённых данных нажмите на кнопку "Сброс".</p>
+        </form>
+    <p><input type="submit" value="Зарегистрироваться"><input type="reset" value="Сброс"></p>
+    </main>
+    <footer>
+        Наши соцсети:
+         <nav>
+            <ul>
+                <li>Telegram</li>
+                <li>Vkontakte</li>
+                <li>WhatsApp</li>
+            </ul>
+        </nav>
+        Ведерникова Д.А. | Права защищены
+    </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+.p1 {
+    text-align: right;    
+}
+.p2{
+    text-indent: 5px;
+}
+.p3{
+    line-height: 150%;
+}
+.p4{
+    vertical-align: super;
+}
+.p5{
+    word-spacing: normal;
+}
+.p6{
+    letter-spacing: 3px;
+}
+.p7{
+    white-space: pre-wrap;
+}
+.p8{
+    tab-size: 18;
+}
+.p9{
+    text-transform: uppercase;
+}
+.p10{
+    direction: rtl;
+}
+#p11{
+    unicode-bidi: inherit;
+}
+#p12{
+    text-decoration: line-through;
+}
+#p13.first-line{
+    font: italic bold 16px/1.5 Times;
+}
+#p14.first-letter{
+    font-size: 20px;
+    color: #5dcc5b;
+}
+#p15{
+    quotes:'\00AB' '\00BB';
+}
+#p15::before {
+    content: open-quote;
+}
+#p15::after {
+    content: close-quote;
+}
+#p16{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#p17{
+    font-style: italic;
+}
+#p18{
+    font-variant: normal;
+}
+#p19{
+    font-weight: bold;
+}
+#p20{
+    font-size: 18px;
+}
+#p21{
+    color: rgb(44, 118, 164);
+}
