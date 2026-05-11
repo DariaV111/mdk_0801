@@ -77,9 +77,8 @@ body{
         background-color: #000000;
     }
     .card {
-        background-color: #111111;
+        background-color: #000000;
     }
-    /* Всё белое */
     .card h1,
     .card .information > div,
     .card .action div,
@@ -88,17 +87,12 @@ body{
     .card .add {
         color: #ffffff;
     }
-    /* Цена кроваво-красная */
     .card .price div:nth-child(2) {
         color: #ff0000;
     }
-    
-    /* Кнопка тоже красная */
     .card .add {
         background-color: #ff0000;
     }
-    
-    /* Рамки для блоков action */
     .card .action div {
         border-color: #ffffff;
     }
