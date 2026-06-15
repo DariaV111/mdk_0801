@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertex Architects | Главная</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <a href="index.html" class="logo__link">
+                    <img src="img/лого.jpg" alt="Vertex Architects Logo" class="logo__img">
+                    <span class="logo__text">Vertex Architects</span>
+                </a>
+            </div>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span class="burger-icon"></span>
+            </label>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Главная</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">О бюро</a></li>
+                    <li class="nav__item"><a href="projects.html" class="nav__link">Проекты</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+                    <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                    <li class="nav__item"><a href="blog.html" class="nav__link">Блог</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__parallax"></div>
+            <div class="hero__content container">
+                <h1 class="hero__title">Vertex Architects</h1>
+                <p class="hero__subtitle">Создаём архитектуру, которая вдохновляет</p>
+                <a href="projects.html" class="btn btn--primary">Смотреть проекты <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <section class="section fade-in">
+            <div class="container">
+                <div class="about-preview">
+                    <div class="about-preview__content">
+                        <span class="section-tag">Кто мы</span>
+                        <h2 class="section-title">Архитектурное бюро полного цикла</h2>
+                        <p class="about-preview__text">Vertex Architects — команда профессионалов, создающая уникальные архитектурные решения с 2010 года. Мы сочетаем инновации, функциональность и эстетику в каждом проекте.</p>
+                        <a href="about.html" class="btn btn--outline">Подробнее о бюро</a>
+                    </div>
+                    <div class="about-preview__stats">
+                        <div class="stat">
+                            <span class="stat__number">120+</span>
+                            <span class="stat__label">Реализованных проектов</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">25</span>
+                            <span class="stat__label">Профессионалов</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">15</span>
+                            <span class="stat__label">Лет опыта</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-paper fade-in">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section-tag">Наши работы</span>
+                    <h2 class="section-title">Последние проекты</h2>
+                    <p class="section-subtitle">Реализованные объекты, которыми мы гордимся</p>
+                </div>
+                <div class="projects-grid projects-grid--home">
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <img src="img/жк небо.jpg" alt="Жилой комплекс «Небо»">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Жилой комплекс «Небо»</h3>
+                            <p class="project-card__type">Жилой проект</p>
+                            <p class="project-card__desc">Современный жилой комплекс с панорамными видами и продуманной инфраструктурой.</p>
+                            <a href="portfolio.html" class="project-card__link">Подробнее <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <img src="img/бизнес центр.png" alt="Бизнес-центр «Вершина»">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Бизнес-центр «Вершина»</h3>
+                            <p class="project-card__type">Коммерческий проект</p>
+                            <p class="project-card__desc">Офисное пространство класса А с инновационными инженерными решениями.</p>
+                            <a href="portfolio.html" class="project-card__link">Подробнее <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <img src="img/музей соврем иск.png" alt="Музей современного искусства">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Музей современного искусства</h3>
+                            <p class="project-card__type">Общественный проект</p>
+                            <p class="project-card__desc">Культурный центр с уникальной архитектурой и выставочными пространствами.</p>
+                            <a href="portfolio.html" class="project-card__link">Подробнее <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="section__footer">
+                    <a href="projects.html" class="btn btn--primary">Все проекты <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <a href="index.html" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--color-light);">
+                        <img src="img/лого.jpg" alt="Vertex Architects Logo" class="footer__logo-img">
+                        <span>Vertex Architects</span>
+                    </a>
+                </div>
+                <p class="footer__desc">Создаём архитектуру будущего уже сегодня</p>
+                <div class="footer__social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Навигация</h4>
+                <ul class="footer__links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О бюро</a></li>
+                    <li><a href="projects.html">Проекты</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Контакты</h4>
+                <ul class="footer__contacts">
+                    <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Архитектурная, 15</li>
+                    <li><i class="fas fa-phone"></i> +7 (495) 123-45-67</li>
+                    <li><i class="fas fa-envelope"></i> info@vertex-architects.ru</li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Режим работы</h4>
+                <ul class="footer__hours">
+                    <li>Пн-Пт: 10:00 – 19:00</li>
+                    <li>Сб: по записи</li>
+                    <li>Вс: выходной</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>&copy; 2024 Vertex Architects. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

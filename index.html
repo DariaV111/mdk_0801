@@ -1,78 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ведерникова Д.А.:индекс</title>
+    <title>Ведерникова Д.А. | Персональный сайт</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <h1>Персональный сайт Ведерниковой</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="pages/new.html">Новости</a></li>
-                <li><a href="pages/personal.html">Обо мне</a></li>
-                <li><a href="pages/work.html">Мои работы</a></li>
-            </ul>
-        </nav>
+    <header class="main-header">
+        <div class="header-container">
+            <h1>Персональный сайт Ведерниковой</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="pages/new.html">Новости</a></li>
+                    <li><a href="pages/personal.html">Обо мне</a></li>
+                    <li><a href="pages/work.html">Мои работы</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <div class="content2">
-        <main>
-            <section>
-                <article>
-                    <h3>Программирование на C#</h3>
-                    <img src="img/Logo_C_sharp.svg.png" width=200px alt="лого C#">
-                    <p>Базовые знания ООП, работа с WP-forms</p>
+        <main class="main-content">
+            <section class="news-preview-section">
+                <h2 class="section-title">Последние события</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-img-placeholder">
+                            <img src="img/new1.jpg" alt="Excel">
+                        </div>
+                        <div class="news-card-content">
+                            <span class="news-date">08.06.2026</span>
+                            <h3>Каждая пятая российская компания ведёт учёт ИТ-активов в Excel: исследование ITAM 2026</h3>
+                            <p>Бухгалтерия ведёт активы в одной системе, ИТ — в другой, часть данных живёт в Excel...</p>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <div class="news-img-placeholder">
+                            <img src="img/w2w1ee.webp" alt="Лого ChatGPT">
+                        </div>
+                        <div class="news-card-content">
+                            <span class="news-date">09.06.2026</span>
+                            <h3>OpenAI запланировала превратить ChatGPT в суперприложение</h3>
+                            <p>В новой версии ChatGPT будет сделан упор не на функциях чат-бота, а на способностях полноценного ИИ-агента...</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            
+            <section class="portfolio-section">
+                <h2 class="section-title">Проекты и практика</h2>
+                <article class="project-card">
+                    <div class="project-header">
+                        <img src="img/Logo_C_sharp.svg.png" class="project-logo" alt="Лого C#">
+                        <h3>Программирование на C#</h3>
+                    </div>
+                    <p class="project-desc">Изучение базовых концепций объектно-ориентированного программирования (ООП), проектирование интерфейсов и работа со стандартными компонентами WP-forms.</p>
+                    
+                    <div class="project-gallery">
+                        <div class="banner-img-wrapper">
+                            <img src="img/Logo_C_sharp.svg.png" alt="лого C#">
+                        </div>
+                        <div class="banner-img-wrapper">
+                            <img src="img/Снимок экрана 2026-06-08 194511.png" alt="C#">
+                        </div>
+                    </div>
                 </article>
-                <article>
-                    <h3>Дизайн в Adobe Photoshop</h3>
-                    <img src="img/adobe-photoshop-logo-in-free-vector.jpg" width=400px alt="лого Adobe Photoshop">
-                    <h4>1.Создание статичного баннера</h4>
-                    <img src="img/f.png" width=200px alt="баннер"> 
-                    <h4>2.Создание анимированного баннера</h4>
-                    <img src="img/i.png" width=250px alt="баннер"> 
+                
+                <article class="project-card">
+                    <div class="project-header">
+                        <img src="img/360_F_1574346398_U50pdbag1D3mMTbQ04MrTb0fPfu2Eq2K.jpg" class="project-logo" alt="Лого Adobe Photoshop">
+                        <h3>Дизайн в Adobe Photoshop</h3>
+                    </div>
+                    <p class="project-desc">Разработка рекламных графических материалов, освоение работы со слоями, масками и таймлайном для анимации.</p>
+                    
+                    <div class="banner-showcase">
+                        <div class="banner-item">
+                            <h4>1. Статичный баннер</h4>
+                            <div class="banner-img-wrapper">
+                                <img src="img/dfsdfaa.png" alt="Статичный баннер"> 
+                            </div>
+                        </div>
+                        <div class="banner-item">
+                            <h4>2. Анимированный баннер</h4>
+                            <div class="banner-img-wrapper">
+                                <img src="img/i.png" alt="Анимированный баннер"> 
+                            </div>
+                        </div>
+                    </div>
                 </article>
             </section>
         </main> 
-        <aside>
-            <h3>Мои навыки</h3>
-            <div class="skills-container">
-                <div class="skill-card">
-                    <img src="img/b.jpg" width="80" alt="C#">
-                    <p>C#</p>
-                </div>
-                <div class="skill-card">
-                    <img src="img/adobe-b.jpg" width="80" alt="Photoshop">
-                    <p>Photoshop</p>
-                </div>
-                <div class="skill-card">
-                    <img src="img/17.webp" width="80" alt="HTML/CSS">
-                    <p>HTML/CSS</p>
+
+        <aside class="sidebar">
+            <div class="sidebar-block">
+                <h3>Мои навыки</h3>
+                <div class="skills-grid">
+                    <div class="skill-pill">
+                        <img src="img/b.jpg" alt="C#">
+                        <span>C#</span>
+                    </div>
+                    <div class="skill-pill">
+                        <img src="img/adobe-b.jpg" alt="Photoshop">
+                        <span>Photoshop</span>
+                    </div>
+                    <div class="skill-pill">
+                        <img src="img/17.webp" alt="HTML/CSS">
+                        <span>HTML/CSS</span>
+                    </div>
                 </div>
             </div>
-            <h3>Пройденные курсы</h3>
-            <div class="courses-container">
-                <div class="course-card">
-                    <img src="img/unnamed.png" width="80" alt="Курс 1">
-                    <p>Основы програм-
-                    мирования</p>
-                </div>
-                <div class="course-card">
-                    <img src="img/iw.webp" width="80" alt="Курс 2">
-                    <p>Adobe Animate для начинающих</p>
-                </div>
-                <div class="course-card">
-                    <img src="img/4f8f.png" width="80" alt="Курс 3">
-                    <p>Adobe Photoshop для начинающ-
-                    их</p>
-                </div>
-            </div>   
+
+            <div class="sidebar-block">
+                <h3>Пройденные курсы</h3>
+                <div class="courses-stack">
+                    <div class="course-row">
+                        <img src="img/unnamed.png" alt="Курс 1">
+                        <p>Основы программирования</p>
+                    </div>
+                    <div class="course-row">
+                        <img src="img/iw.webp" alt="Курс 2">
+                        <p>Adobe Animate для начинающих</p>
+                    </div>
+                    <div class="course-row">
+                        <img src="img/4f8f.png" alt="Курс 3">
+                        <p>Adobe Photoshop для начинающих</p>
+                    </div>
+                </div>   
+            </div>
         </aside>  
     </div>
-    <footer>
-        Ведерникова Д.А. | Права защищены
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Ведерникова Д.А. | Все права защищены</p>
+        </div>
     </footer>
 </body>
 </html>
