@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertex Architects | Блог</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+   <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <a href="index.html" class="logo__link">
+                    <img src="img/лого.jpg" alt="Vertex Architects Logo" class="logo__img">
+                    <span class="logo__text">Vertex Architects</span>
+                </a>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span class="burger-icon"></span>
+            </label>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">О бюро</a></li>
+                    <li class="nav__item"><a href="projects.html" class="nav__link">Проекты</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+                    <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                    <li class="nav__item"><a href="blog.html" class="nav__link">Блог</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-hero__title">Блог</h1>
+                <p class="page-hero__subtitle">Статьи об архитектуре и дизайне</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="blog-grid">
+                    <div class="blog-posts">
+                        <article class="blog-card" id="post1">
+                            <div class="blog-card__image">
+                                <img src="img/тренды 2024.jpg" alt="Современная архитектура">
+                            </div>
+                            <div class="blog-card__content">
+                                <h2 class="blog-card__title"><a href="#post1">Тренды современной архитектуры 2024</a></h2>
+                                <div class="blog-card__meta">
+                                    <span><i class="far fa-calendar"></i> 15 марта 2024</span>
+                                    <span><i class="far fa-user"></i> Александр Волков</span>
+                                </div>
+                                <p class="blog-card__excerpt">Устойчивое развитие, биодизайн и умные технологии формируют облик современной архитектуры...</p>
+                            </div>
+                        </article>
+                        <article class="blog-card" id="post2">
+                            <div class="blog-card__image">
+                                <img src="img/экологич.jpg" alt="Экодизайн">
+                            </div>
+                            <div class="blog-card__content">
+                                <h2 class="blog-card__title"><a href="#post2">Экологичная архитектура: принципы и примеры</a></h2>
+                                <div class="blog-card__meta">
+                                    <span><i class="far fa-calendar"></i> 2 февраля 2024</span>
+                                    <span><i class="far fa-user"></i> Екатерина Морозова</span>
+                                </div>
+                                <p class="blog-card__excerpt">Как сделать архитектуру устойчивой и заботящейся об окружающей среде...</p>
+                            </div>
+                        </article>
+                        <article class="blog-card" id="post3">
+                            <div class="blog-card__image">
+                                <img src="img/ошибки.webp" alt="Интерьер">
+                            </div>
+                            <div class="blog-card__content">
+                                <h2 class="blog-card__title"><a href="#post3">5 ошибок при планировании интерьера</a></h2>
+                                <div class="blog-card__meta">
+                                    <span><i class="far fa-calendar"></i> 10 января 2024</span>
+                                    <span><i class="far fa-user"></i> Анна Крылова</span>
+                                </div>
+                                <p class="blog-card__excerpt">Как избежать типичных ошибок и создать функциональное и красивое пространство...</p>
+                            </div>
+                        </article>
+                        <article class="blog-card" id="post4">
+                            <div class="blog-card__image">
+                                <img src="img/освещ.webp" alt="Освещение">
+                            </div>
+                            <div class="blog-card__content">
+                                <h2 class="blog-card__title"><a href="#post4">Роль освещения в архитектуре</a></h2>
+                                <div class="blog-card__meta">
+                                    <span><i class="far fa-calendar"></i> 5 декабря 2023</span>
+                                    <span><i class="far fa-user"></i> Дмитрий Некрасов</span>
+                                </div>
+                                <p class="blog-card__excerpt">Свет как архитектурный инструмент: как правильно использовать освещение...</p>
+                            </div>
+                        </article>
+                    </div>
+                    <aside class="blog-sidebar">
+                        <h3>О блоге</h3>
+                        <p>Экспертные статьи об архитектуре, дизайне и современных технологиях от команды Vertex Architects.</p>
+                        
+                        <h3 style="margin-top: var(--spacing-md);">Рубрики</h3>
+                        <ul>
+                            <li><a href="#">Архитектура</a></li>
+                            <li><a href="#">Дизайн интерьеров</a></li>
+                            <li><a href="#">Технологии</a></li>
+                            <li><a href="#">Экология</a></li>
+                        </ul>
+                        
+                        <div class="selected-article">
+                            <h4><i class="fas fa-book-open"></i> Выбранная статья</h4>
+                            <p id="selected-content">Нажмите на любую статью, чтобы прочитать её здесь</p>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <a href="index.html" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--color-light);">
+                        <img src="img/лого.jpg" alt="Vertex Architects Logo" class="footer__logo-img">
+                        <span>Vertex Architects</span>
+                    </a>
+                </div>
+                <p class="footer__desc">Создаём архитектуру будущего уже сегодня</p>
+                <div class="footer__social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Навигация</h4>
+                <ul class="footer__links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О бюро</a></li>
+                    <li><a href="projects.html">Проекты</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Контакты</h4>
+                <ul class="footer__contacts">
+                    <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Архитектурная, 15</li>
+                    <li><i class="fas fa-phone"></i> +7 (495) 123-45-67</li>
+                    <li><i class="fas fa-envelope"></i> info@vertex-architects.ru</li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Режим работы</h4>
+                <ul class="footer__hours">
+                    <li>Пн-Пт: 10:00 – 19:00</li>
+                    <li>Сб: по записи</li>
+                    <li>Вс: выходной</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>&copy; 2024 Vertex Architects. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
